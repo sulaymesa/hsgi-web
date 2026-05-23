@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Modelo BIM de redes de fluidos">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#183038"/>
+      <stop offset="0.55" stop-color="#285b68"/>
+      <stop offset="1" stop-color="#bfe7d2"/>
+    </linearGradient>
+    <linearGradient id="pipeA" x1="0" x2="1">
+      <stop offset="0" stop-color="#b8dfee"/>
+      <stop offset="1" stop-color="#eefaf6"/>
+    </linearGradient>
+    <linearGradient id="pipeB" x1="0" x2="1">
+      <stop offset="0" stop-color="#bfe7d2"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0b2027" flood-opacity="0.28"/>
+    </filter>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <g opacity="0.16" fill="none" stroke="#ffffff" stroke-width="2">
+    <path d="M980 90 1390 260 1060 432 650 252Z"/>
+    <path d="M980 172 1390 342 1060 514 650 334Z"/>
+    <path d="M650 252v82M980 90v82M1390 260v82M1060 432v82"/>
+    <path d="M815 180v82M1185 175v82M1225 346v82M850 420v82"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <path d="M820 275 C920 240 1035 248 1122 302 C1204 353 1260 430 1368 438" fill="none" stroke="url(#pipeA)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M725 520 C842 460 912 480 1000 535 C1090 590 1182 594 1284 530" fill="none" stroke="url(#pipeB)" stroke-width="22" stroke-linecap="round"/>
+    <path d="M910 650 C970 600 1035 586 1106 617 C1178 648 1237 638 1310 585" fill="none" stroke="#b8dfee" stroke-width="14" stroke-linecap="round" opacity="0.95"/>
+  </g>
+  <g fill="#ffffff" opacity="0.95">
+    <circle cx="820" cy="275" r="20"/>
+    <circle cx="1122" cy="302" r="18"/>
+    <circle cx="1368" cy="438" r="22"/>
+    <circle cx="725" cy="520" r="18"/>
+    <circle cx="1000" cy="535" r="20"/>
+    <circle cx="1284" cy="530" r="18"/>
+    <circle cx="910" cy="650" r="13"/>
+    <circle cx="1106" cy="617" r="13"/>
+    <circle cx="1310" cy="585" r="13"/>
+  </g>
+  <g opacity="0.84">
+    <rect x="1038" y="130" width="230" height="128" rx="8" fill="#ffffff" fill-opacity="0.14" stroke="#ffffff" stroke-opacity="0.35"/>
+    <text x="1065" y="176" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Coordinación BIM</text>
+    <text x="1065" y="214" fill="#d8f1f0" font-family="Arial, sans-serif" font-size="16">CDE · ISO 19650</text>
+    <rect x="1185" y="690" width="250" height="96" rx="8" fill="#ffffff" fill-opacity="0.14" stroke="#ffffff" stroke-opacity="0.35"/>
+    <text x="1215" y="734" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="700">Redes de fluidos</text>
+    <text x="1215" y="765" fill="#d8f1f0" font-family="Arial, sans-serif" font-size="15">Hidráulica · Gas · Incendio</text>
+  </g>
+</svg>

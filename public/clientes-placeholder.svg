@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="Espacio para logos de clientes">
+  <rect width="1000" height="420" fill="#ffffff"/>
+  <rect x="24" y="24" width="952" height="372" rx="8" fill="#eefaf6" stroke="#dcebea" stroke-width="2"/>
+  <text x="500" y="92" fill="#183038" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Nuestros clientes</text>
+  <g fill="#ffffff" stroke="#b8dfee" stroke-width="2">
+    <rect x="90" y="150" width="230" height="88" rx="8"/>
+    <rect x="385" y="150" width="230" height="88" rx="8"/>
+    <rect x="680" y="150" width="230" height="88" rx="8"/>
+    <rect x="235" y="270" width="230" height="88" rx="8"/>
+    <rect x="535" y="270" width="230" height="88" rx="8"/>
+  </g>
+  <g fill="#2d738b" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">
+    <text x="205" y="202">Constructora</text>
+    <text x="500" y="202">Consultoría</text>
+    <text x="795" y="202">Desarrollo</text>
+    <text x="350" y="322">Infraestructura</text>
+    <text x="650" y="322">Aliados BIM</text>
+  </g>
+</svg>
